@@ -1,5 +1,8 @@
 /* Sticky footer styles
 -------------------------------------------------- */
+/* 
+Source: https://getbootstrap.com/docs/4.0/examples/sticky-footer/
+*/
 html {
     position: relative;
     min-height: 100%;
