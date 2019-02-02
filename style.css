@@ -1,20 +1,48 @@
-/* Sticky footer styles
--------------------------------------------------- */
-/* 
-Source: https://getbootstrap.com/docs/4.0/examples/sticky-footer/
-*/
+/* I am not a CSS pro, but at least I made everything myself ;) */
+
 html {
     position: relative;
-    min-height: 100%;
+    /* min-height: 100%; */
+    height: 100%;
+    display: flex; flex-direction: column;
   }
   body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: url("images/tobias-tullius-225741-unsplash.jpg");
+    background-size: cover; /* Resize the background image to cover the entire container */
   }
   .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
-    background-color: #f5f5f5;
+    height: 60px;
+    line-height: 60px;
+    /* background-color: #f5f5f5; */
   }
+
+.max-height {
+  height: 100%;
+}
+
+.icon-link {
+
+}
+
+/* unvisited link */
+.icon-link:link {
+  color: black;
+}
+
+/* visited link */
+.icon-link:visited {
+  color: black;
+}
+
+/* mouse over link */
+.icon-link:hover {
+  color: gray;
+}
