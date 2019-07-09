@@ -5,15 +5,15 @@ html {
     /* min-height: 100%; */
     height: 100%;
     display: flex; flex-direction: column;
+    
   }
   body {
+    font-family: "Lucida Console", Monaco, monospace;
     margin-bottom: 60px;
     height: 100%;
     display: flex; 
     flex-direction: column;
     flex-grow: 1;
-    background-image: url("images/tobias-tullius-225741-unsplash.jpg");
-    background-size: cover; /* Resize the background image to cover the entire container */
   }
   .footer {
     position: absolute;
@@ -28,21 +28,18 @@ html {
   height: 100%;
 }
 
-.icon-link {
 
-}
-
-/* unvisited link */
+/* unvisited GitHub icon link*/
 .icon-link:link {
   color: black;
 }
 
-/* visited link */
+/* visited GitHub icon link*/
 .icon-link:visited {
   color: black;
 }
 
-/* mouse over link */
+/* mouse over GitHub icon link */
 .icon-link:hover {
   color: gray;
 }
